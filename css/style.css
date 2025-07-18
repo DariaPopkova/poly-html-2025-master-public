@@ -9944,8 +9944,8 @@ span.pagination__item {
   margin-bottom: 80px;
 }  
 .lk-conf__back-button{
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding-top: 10px;
+  padding-bottom: 14px;
 }
 .lk-conf h1{
   margin-bottom: 40px;
@@ -9953,7 +9953,7 @@ span.pagination__item {
 .lk-conf__items{
   display: grid;
   grid-template-columns: 1fr;
-  gap: 40px;
+  gap: 36px;
 }
 .lk-conf__item{
   display: flex;
@@ -9963,13 +9963,13 @@ span.pagination__item {
   margin-bottom: 10px;
 }
 .lk-conf__buttons{
-  margin-top: 20px;
+  margin-top: 18px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 18px;
 }
 .lk-conf__button a{
-  padding: 10px 10px 10px 16px;
+  padding: 11px 10px 11px 16px;
   border-radius: 12px;
   width: 100%;
   display: flex;
@@ -10014,8 +10014,8 @@ span.pagination__item {
     margin-bottom: 100px;
   }  
   .lk-conf__back-button{
-    padding-top: 22.5px;
-    padding-bottom: 23.5px;
+    padding-top: 26.5px;
+    padding-bottom: 17.5px;
   }
   .lk-conf h1{
     margin-bottom: 50px;
@@ -10044,7 +10044,7 @@ span.pagination__item {
     gap: 15px;
   }
   .lk-conf__button a {
-    padding: 8px 8px 8px 10px;
+    padding: 7px 8px 7px 10px;
     width: auto;
     justify-content: unset;
     gap: 10px;
@@ -10100,7 +10100,7 @@ span.pagination__item {
   .lk-menu__wrap{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 35px;
   } 
   .lk-menu__person{
     display: flex;
@@ -10117,7 +10117,7 @@ span.pagination__item {
     margin-bottom: 30px;
   }
   .lk-menu__name{
-    margin-bottom: 20px;
+    margin-bottom: 17px;
   }
   .lk-menu__list{
     list-style: none;
@@ -10125,7 +10125,7 @@ span.pagination__item {
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
   }
   .lk-conf__items{
     gap: 30px 20px;
@@ -10135,12 +10135,16 @@ span.pagination__item {
     width: calc(100vw - 79px);
     margin: auto;
   }
+  .lk-conf__aside {
+    padding-top: 6px;
+  }  
+  
 }
 @media (min-width: 1441px) {
   .lk-menu__name{
     font-size: 24px;
   }
-  .lk-menu__settings, .lk-menu__list a{
+  .lk-menu__settings a, .lk-menu__list a{
     font-size: 16px;
   }  
   .lk-conf__name{
@@ -10171,6 +10175,21 @@ span.pagination__item {
   .lk-conf__bottom .container {
     max-width: 1600px;
     width: calc(100vw - 100px);
+  }
+  .lk-menu__icon {
+    margin-bottom: 31px;
+  }
+  .lk-menu__name {
+      margin-bottom: 15px;
+  }
+  .lk-menu__wrap {
+    gap: 34px;
+  }
+  .lk-menu__list{
+    gap: 14px;
+  }
+  .lk-menu__exit a{
+    padding: 18px 20px;
   }
 }
 /*Страница lk-conf конец*/
